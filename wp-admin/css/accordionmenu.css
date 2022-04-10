@@ -143,6 +143,11 @@ http://rockablethemes.com
     background-position: center center !important;
 }
 
+.accordion > li.advise > a:before {
+    background-image: url(../img/advise.png);
+    background-size: 100% 100%;
+}
+
 .accordion li.home > a:before { background-position: -24px 0px; }
 .accordion li.home:hover > a:before,
 .accordion li.home:target > a:before,

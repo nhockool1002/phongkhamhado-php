@@ -1,0 +1,349 @@
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    *{}
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    *{}
+    .menu {
+        display: none;
+    }
+    .slide .content-slide .fristSlide {
+        bottom: 15% !important;
+        left: 15% !important;
+    }
+
+    .formdangky .content-formdangky .bs-formdangki {
+        background-size: 125% 100% !important;
+    }
+
+    .formdangky .content-formdangky .formmain-formdangky .inputWrap input {
+        font-size: 10px;
+    }
+
+    .lydoluachon .content-lydoluachon .container-fluid {
+        padding: unset !important;
+    }
+
+    .lydoluachon .card {
+        height: unset !important;
+    }
+
+    .lydoluachon .card img {
+        width: 30% !important;
+    }
+
+    .dichvu {
+        height: 680px !important;
+        background-attachment: fixed;
+    }
+
+    .dichvu .content-dichvu .container-fluid {
+        padding: unset !important;
+        padding-top: 20px !important;
+    }
+
+    .dichvu .content-dichvu .item .wrap-item {
+        padding: 5px !important;
+        margin-bottom: 10px;
+    }
+
+    .tintuc .content-tintuc {
+        padding: 0 0 0  0 !important;
+    }
+
+    .tintuc .card .card-text {
+        padding: 0 10px 0 10px !important;
+    }
+
+    .khachhangnoi {
+        height: 640px !important;
+    }
+
+    .khachhangnoi .wrapKhachHangNoi {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .khachhangnoi .profile {
+        margin-left: 22px !important;
+    }
+
+    .formlienhe {
+        height: 300px;
+    }
+
+    .formlienhe .formlienhe-content .formlienhe-title img {
+        width: 200px !important;
+    }
+
+    .formlienhe .formlienhe-img img {
+        padding-top: 20px;
+    }
+
+    .formlienhe .content-formlienhe .formmain-formlienhe input {
+        font-size: 12px;
+    }
+
+    .formlienhe .content-formlienhe .formmain-formlienhe .submit-formlienhe img {
+        width: 215px !important;
+    }
+
+    .huongdan {
+        height: 160px !important;
+        padding-top: unset !important;
+    }
+
+    .huongdan .hd-pc {
+        display: none;
+    }
+
+    .huongdan .hd-mb {
+        display: block !important;
+        height: 150px;
+        line-height: 150px;
+    }
+
+    .thoigianlamviec p {
+        font-size: 15px !important;
+        margin-top: 15px;
+    }
+
+    .footer {
+        height: 450px !important;
+    }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) and (min-width: 321px){
+    *{}
+    .menu {
+        display: none;
+    }
+    .slide {
+        margin-top: 30px;
+    }
+
+    .slide .content-slide {
+        height: 200px;
+    }
+
+    .slide .content-slide .carousel-item {
+        height: 200px;
+    }
+
+    .slide .content-slide .carousel-item img {
+        height: 200px;
+    }
+
+    .chuyenkhoahotro .title-chuyenkhoahotro {
+        margin-top: 20px !important;
+    }
+
+    .chuyenkhoahotro img.title-image-ckhd {
+        width: 300px !important;
+    }
+    
+    .chuyenkhoahotro .content-chuyenkhoahotro .name-ckhd {
+        font-size: 18px !important;
+    }
+
+    .chuyenkhoahotro .content-chuyenkhoahotro .content-ckhd {
+        font-size: 13px !important;
+    }
+
+    .chuyenkhoahotro .content-chuyenkhoahotro .icon-ckhd {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .chuyenkhoahotro .content-chuyenkhoahotro img {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .chuyenkhoahotro .content-chuyenkhoahotro .icon-ckhd {
+        background-size: 60px 60px !important;
+    }
+
+    .chuyenkhoahotro .content-chuyenkhoahotro .item:hover .icon-ckhd {
+        background-size: 60px 60px !important;
+    }
+
+    .formdangky {
+        height: 1100px !important; 
+    }
+
+    .formdangky .content-formdangky .bs-formdangki {
+        background-size: 90% 100% !important;
+    }
+
+    .formdangky .content-formdangky .inputWrap {
+        margin-bottom: 10px;
+    }
+
+    .formdangky .content-formdangky .content-formdangky .formmain-formdangky .submit-formdangki button {
+        width: 100% !important;
+    }
+
+    .lydoluachon img.title-image-ckhd {
+        width: 300px !important;
+        margin-top: 20px !important;
+    }
+
+    .lydoluachon .content-lydoluachon .container-fluid {
+        padding: unset !important;
+    }
+
+    .lydoluachon .card {
+        height: auto !important;
+    }
+
+    .lydoluachon .card img {
+        width: 22%;
+    }
+
+    .lydoluachon .card-title {
+        font-size: 15px;
+    }
+
+    .lydoluachon .card .card-text {
+        font-size: 13px;
+    }
+
+    .dichvu {
+        height: 530px !important;
+        background-attachment: fixed;
+    }
+
+    .dichvu .content-dichvu .container-fluid {
+        padding: unset !important;
+        padding-top: 20px !important;
+    }
+
+    .dichvu .content-dichvu .item .wrap-item {
+        padding: 5px !important;
+    }
+
+    .dichvu .content-dichvu .container-fluid .item {
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 5px;
+    }
+
+    .dichvu .content-dichvu .item .wrap-item .dichvu-img img {
+        width: 60px !important;
+    }
+
+    .dichvu .content-dichvu .item .wrap-item {
+        height: 235px !important;
+    }
+
+    .dichvu .content-dichvu .item .wrap-item .dichvu-name {
+        font-size: 15px !important;
+    }
+
+    .dichvu .content-dichvu .item .wrap-item .dichvu-des {
+        font-size: 13px !important;
+    }
+
+    .tintuc img.title-image-ckhd {
+        width: 350px !important;
+        margin-top: 20px !important;
+    }
+
+    .tintuc .content-tintuc {
+        padding: 0 0 0 0 !important;
+    }
+
+    .khachhangnoi img.title-image-ckhd {
+        width: 350px !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .khachhangnoi .wrapKhachHangNoi {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .formlienhe .formlienhe-content .formlienhe-title img {
+        width: 200px !important;
+    }
+
+    .formlienhe .formlienhe-content .formlienhe-ten {
+        margin-bottom: 30px;
+    }
+
+    .huongdan {
+        height: 310px !important;
+        padding-top: unset !important;
+    }
+
+    .huongdan .hd-pc {
+        display: none;
+    }
+
+    .huongdan .hd-mb {
+        display: block !important;
+        height: 150px;
+        line-height: 150px;
+    }
+
+    .thoigianlamviec p {
+        font-size: 10px !important;
+        margin-top: 15px;
+    }
+
+    .menu-mb {
+        display: block !important;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        z-index: 999;
+        background-color: #FFF;
+    }
+
+    .menu-mb .logo-mb img{
+        width: 130px;
+        height: 50px;
+    }
+
+    .menu-mb .call-247 img {
+        width: 100px;
+        height: 50px;
+    }
+
+    .menu-mb .button {
+        text-align: right;
+        height: 50px;
+        width: 100%;
+        background-image: url("../images/btn-mb.png");
+        background-repeat: no-repeat;
+        background-position: center right;
+    }
+    .menu-mb .button.mbActive {
+        background-image: url("../images/close-mb.png");
+    }
+
+    .footer-mb {
+        display: block !important;
+    }
+
+    .footer-mb .content-footer-mb {
+        display: block !important;
+    }
+
+    .footer-mb .content-footer-mb img {
+        width: 100%;
+    }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px){
+    *{}
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+    *{}
+}

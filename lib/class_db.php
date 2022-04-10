@@ -12,7 +12,7 @@ class db {
 		
 		$this->conn = mysql_connect($this->host, $this->user, $this->pass);
 		mysql_select_db($this -> database, $this->conn);
-		mysql_query("set names 'utf8'");
+		mysql_query("set names 'utf8_general_ci'");
 	}
 	function DanhMuc($idLoai, $Parent){
 		$sql="SELECT * FROM loai WHERE (idLoai = $idLoai or $idLoai = -1) and (Parent = $Parent or $Parent = -1) and AnHien=1

@@ -29,6 +29,8 @@ error_reporting(E_ALL & ~E_NOTICE);
 <!-- Latest compiled and minified CSS -->
 <script type="text/javascript" src="js/jquery.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 <link rel="stylesheet" href="css/jquery-ui.css">
 <script src="js/jquery-ui.js"></script>
 <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
@@ -228,7 +230,9 @@ error_reporting(E_ALL & ~E_NOTICE);
                             case "menu-settings":
                                 include "views/menus/menu-settings.php";
                                 break;
-
+							case "advise-list":
+								include "views/advise/advise-list.php";
+								break;
 							default :
 								include "content.php";
 								break;
@@ -239,7 +243,26 @@ error_reporting(E_ALL & ~E_NOTICE);
 
 <!-- add message -->
 <?php include_once "message.php"; ?>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+<script>
+	toastr.options = {
+		"closeButton": true,
+		"newestOnTop": false,
+		"progressBar": true,
+		// "positionClass": "toast-bottom-center",
+		"preventDuplicates": false,
+		"onclick": null,
+		"showDuration": "300",
+		"hideDuration": "1000",
+		"timeOut": "5000",
+		"extendedTimeOut": "1000",
+		"showEasing": "swing",
+		"hideEasing": "linear",
+		"showMethod": "fadeIn",
+		"hideMethod": "fadeOut"
+	}
+</script>
 </body>
 
 <!-- Mirrored from jannek.fi/themeforest/proadmin/ by HTTrack Website Copier/3.x [XR&CO'2008], Wed, 26 Nov 2008 20:37:11 GMT -->

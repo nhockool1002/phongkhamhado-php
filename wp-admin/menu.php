@@ -81,6 +81,12 @@
 					<li><a  onclick="luu(5)" href="main.php?p=dm_them"><em>02</em>Thêm Danh Mục</a></li>
 				</ul>
 			</li>
+			<li id="89"  class="advise">
+				<a href="#one">Tư vấn</a>
+				<ul class="sub-menu">
+					<li><a  onclick="luu(89)" href="main.php?p=advise-list"><em>01</em>Danh sách<span><?php //echo $qt->TongDM(); ?></span></a></li>
+				</ul>
+			</li>
 			<li id="90"  class="settings">
 				<a href="#one">Cài Đặt</a>
 				<ul class="sub-menu">

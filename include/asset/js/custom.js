@@ -157,6 +157,7 @@ subFrmDangKy.click(function() {
             hoten: hotenFrmDangKy.val(),
             dienthoai: dtFrmDangKy.val(),
             chuyenkhoa: convertValueCktoString(ckFrmDangKy.val()),
+            source: window.location.href,
         },
         success: function(data) {
             hotenFrmDangKy.val('');

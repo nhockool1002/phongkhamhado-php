@@ -14,6 +14,7 @@
                         <th>Số điện thoại</th>
                         <th>Email</th>
                         <th>Chuyên khoa</th>
+                        <th>Nguồn</th>
                         <th>Trạng thái</th>
                     </tr>
                 </thead>
@@ -23,6 +24,7 @@
                         <td><?php echo $item['HoTen']; ?></td>
                         <td><?php echo $item['SoDienThoai']; ?></td>
                         <td><?php echo $item['Email']; ?></td>
+                        <td><?php echo $item['Source']; ?></td>
                         <td><?php echo $item['ChuyenKhoa']; ?></td>
                         <td>
                             <?php 

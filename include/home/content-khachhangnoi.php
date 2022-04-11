@@ -6,7 +6,7 @@
         <div class="card-body">
             <h4 class="card-title"><img src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png"></h4>
             <div class="template-demo">
-                <p>Online reviews can make or break a customer's decision to make a purchase. Read about these customer review sites where your customers'</p>
+                <p>Mình khám và xét nghiệm thai sớm, công nhận kết quả chính xác mà nhanh chóng, chỉ trong vòng 30 phút đã có kết quả rồi, không cần chờ lâu. Đã vậy thông tin kết quả xét nghiệm rất chi tiết.</p>
             </div>
             <hr>
             <div class="row">
@@ -24,7 +24,7 @@
         <div class="card-body">
             <h4 class="card-title"><img src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png"></h4>
             <div class="template-demo">
-                <p>When you think of Apple you automatically think expensive if your anything like me. When purchasing this laptop I was skeptical on laptops i purchased.</p>
+                <p>Đã đi chữa bệnh nhiều nơi, nhất là bệnh viện công phải xếp hàng bốc số từ sớm, chờ đợi rất lâu. Nhưng khám tại Hà Đô thì thực sự ưng vì không cần chờ đợi, xếp hàng gì cả. Phòng ốc sạch sẽ, thiết bị toàn máy móc mới. </p>
             </div>
             <hr>
             <div class="row">
@@ -42,7 +42,7 @@
         <div class="card-body">
             <h4 class="card-title"><img src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png"></h4>
             <div class="template-demo">
-                <p>I’ve wanted a MacBook for a while now because of the build quality and the simplicity of the OS. I spend an average 6 hours a day using it for college and the battery still has a fair.</p>
+                <p>Bác sĩ và nhân viên y tế tại Hà Đô rất ân cần, mọi thủ tục được lễ tân thực hiện nhanh chóng. Chỉ dẫn từ khâu đăng kí, dắt luôn lên phòng khám bệnh gặp bác sĩ, rất chuyên nghiệp.</p>
             </div>
             <hr>
             <div class="row">
@@ -60,7 +60,7 @@
         <div class="card-body">
             <h4 class="card-title"><img src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png"></h4>
             <div class="template-demo">
-                <p>This MacBook has excellent processing speed. The screen is crystal clear and I really enjoy the touchbar. I set up the fingerprint reader.</p>
+                <p>Tôi chữa viêm phụ khoa ở nhiều nơi, nhưng cứ tái đi tái lại nhiều lần. Đến với Phòng Khám Hà Đô chỉ cần hai liệu trình là bệnh khỏi hẳn, không còn tái lại nữa. Thật sự cảm ơn các bác sĩ Hà Đô!</p>
             </div>
             <hr>
             <div class="row">
@@ -78,7 +78,7 @@
         <div class="card-body">
             <h4 class="card-title"><img src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png"></h4>
             <div class="template-demo">
-                <p>For the last 10 years, I have owned an old Gateway laptop. Although it was amazing and lasted me, it was time for an upgrade. I own an Apple phone so I decided to look into a computer.</p>
+                <p>Bác sĩ tư vấn online hỗ trợ nhiệt tình. Do công việc bận rộn tôi nhắn hỏi bệnh vào lúc 23h nhưng bác sĩ vẫn tư vấn rất tận tâm. Còn cho đặt hẹn online trước để khi đến khám trực tiếp không cần chờ đợi. </p>
             </div>
             <hr>
             <div class="row">
@@ -87,6 +87,24 @@
                     <div class="profile">
                         <h4 class="cust-name">Chị Tâm</h4>
                         <p class="cust-profession">Quận 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title"><img src="https://img.icons8.com/ultraviolet/40/000000/quote-left.png"></h4>
+            <div class="template-demo">
+                <p>Đây là địa chỉ y tế chuyên khoa uy tín tại Quận 10. Sau khi thăm khám tại Đa Khoa Hà Đô, tôi cảm thấy rất yên tâm vì dịch vụ chuyên nghiệp, bảo mật thông tin bệnh án. </p>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-2"> <img class="profile-pic" src="include/asset/images/cus1.png"> </div>
+                <div class="col-sm-10">
+                    <div class="profile">
+                        <h4 class="cust-name">Anh Cường</h4>
+                        <p class="cust-profession">Quận 10</p>
                     </div>
                 </div>
             </div>

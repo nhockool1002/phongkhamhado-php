@@ -1,4 +1,6 @@
 <?php 
+    error_reporting(0);
+    ini_set('display_errors', 0);
     include_once('include/function/posts/func.php');
     include_once('include/function/settings/func.php');
     $posts = getAllPost();
@@ -113,7 +115,7 @@
 
     <!-- Thoigianlamviec -->
     <div class="thoigianlamviec w-100 text-center">
-        <p>THỜI GIAN LÀM VIỆC: 8:00 - 20:00 * Tất cả các nghỉ trong tuần, kể cả ngày nghỉ lễ</p>
+        <p>THỜI GIAN LÀM VIỆC: 8:00 - 20:00 * Tất cả các ngày trong tuần, kể cả ngày lễ, Tết.</p>
     </div>
 
     <!-- Footer -->

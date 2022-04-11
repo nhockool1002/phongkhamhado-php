@@ -22,7 +22,7 @@
             <div class="icon-ckhd dalieu"></div>
             <p class="name-ckhd">DA LIỄU</p>
             <div class="space-ckhd"></div>
-            <p class="content-ckhd">Hỗ trợ điều trị hiệu quả các bệnh da liễu tại trung tâm y tế Hà Đô.</p>
+            <p class="content-ckhd">Hỗ trợ điều trị hiệu quả các bệnh da liễu bằng các phương pháp hiện đại.</p>
         </div>
         <div class="col-6 col-md-4 item">
             <div class="icon-ckhd sankhoa"></div>
@@ -34,7 +34,7 @@
             <div class="icon-ckhd xetnghiem"></div>
             <p class="name-ckhd">XÉT NGHIỆM</p>
             <div class="space-ckhd"></div>
-            <p class="content-ckhd">Là quy trình tầm soát cũng như chẩn đoán nhiều bệnh lý nguy hiểm tiềm ẩn.</p>
+            <p class="content-ckhd">Tầm soát nhiều bệnh lý nguy hiểm tiềm ẩn, cho kết quả nhanh – chính xác.</p>
         </div>
     </div>
 </div>

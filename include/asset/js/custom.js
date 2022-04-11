@@ -159,7 +159,10 @@ subFrmDangKy.click(function() {
             chuyenkhoa: convertValueCktoString(ckFrmDangKy.val()),
         },
         success: function(data) {
-            toastr.success("Thông tin tư vấn đã được gửi")
+            hotenFrmDangKy.val('');
+            dtFrmDangKy.val('');
+            ckFrmDangKy.val(0).change();
+            toastr.success("Thông tin tư vấn đã được gửi");
         },
         error: function(jqXHR, textStatus, error) {
             toastr.error(error);

@@ -13,17 +13,25 @@
                 <div class="collapse navbar-collapse" id="main_nav">
                     <ul class="navbar-nav">
                         <li class="nav-item active"> <a class="nav-link" href="#">TRANG CHỦ</a> </li>
-                        <li class="nav-item"><a class="nav-link" href="#">GIỚI THIỆU</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">GIỚI THIỆU</a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#"> Về chúng tôi</a></li>
+                                <li><a class="dropdown-item" href="#"> Cơ sở vật chất</a></li>
+                                <li><a class="dropdown-item" href="#"> Đội ngũ bác sĩ</a></li>
+                                <li><a class="dropdown-item" href="#"> Quy trình khám</a></li>
+                            </ul>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">DANH MỤC BỆNH</a>
                             <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="#"> Ngoại tiết niệu</a></li>
-                            <li><a class="dropdown-item" href="#"> Phụ khoa</a></li>
-                            <li><a class="dropdown-item" href="#"> Sản khoa</a></li>
-                            <li><a class="dropdown-item" href="#"> Ngoại khoa</a></li>
-                            <li><a class="dropdown-item" href="#"> Nội khoa</a></li>
-                            <li><a class="dropdown-item" href="#"> Da liễu</a></li>
-                            <li><a class="dropdown-item" href="#"> Xét nghiệm</a></li>
+                                <li><a class="dropdown-item" href="#"> Ngoại tiết niệu</a></li>
+                                <li><a class="dropdown-item" href="#"> Phụ khoa</a></li>
+                                <li><a class="dropdown-item" href="#"> Sản khoa</a></li>
+                                <li><a class="dropdown-item" href="#"> Ngoại khoa</a></li>
+                                <li><a class="dropdown-item" href="#"> Nội khoa</a></li>
+                                <li><a class="dropdown-item" href="#"> Da liễu</a></li>
+                                <li><a class="dropdown-item" href="#"> Xét nghiệm</a></li>
                             </ul> 
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#">TIN TỨC</a></li>

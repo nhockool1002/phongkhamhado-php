@@ -9,8 +9,7 @@
                     Đặt lịch khám online
                 </div>
                 <div class="dichvu-des">
-                Đặt lịch online nhận ưu đãi,
-                tiết kiệm thời gian.
+                    Đặt lịch online nhận ưu đãi, tiết kiệm thời gian.
                 </div>
             </div>
         </div>
@@ -23,8 +22,7 @@
                     Tư vấn online miễn phí 24/24
                 </div>
                 <div class="dichvu-des">
-                    Giải đáp chính xác, tương tác
-                    dễ dàng, bảo mật thông tin.
+                    Giải đáp chính xác, tương tác dễ dàng, bảo mật thông tin.
                 </div>
             </div>
         </div>

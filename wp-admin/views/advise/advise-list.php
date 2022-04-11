@@ -24,8 +24,8 @@
                         <td><?php echo $item['HoTen']; ?></td>
                         <td><?php echo $item['SoDienThoai']; ?></td>
                         <td><?php echo $item['Email']; ?></td>
-                        <td><?php echo $item['Source']; ?></td>
                         <td><?php echo $item['ChuyenKhoa']; ?></td>
+                        <td><?php echo $item['Source']; ?></td>
                         <td>
                             <?php 
                                 if ($item['TrangThai'] == 1) {

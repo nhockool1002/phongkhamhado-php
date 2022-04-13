@@ -12,7 +12,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="main_nav">
                     <ul class="navbar-nav">
-                        <li class="nav-item active"> <a class="nav-link" href="#">TRANG CHỦ</a> </li>
+                        <li class="nav-item active"> <a class="nav-link" href="index.php">TRANG CHỦ</a> </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">GIỚI THIỆU</a>
                             <ul class="dropdown-menu dropdown-menu-end">
@@ -25,13 +25,9 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown">DANH MỤC BỆNH</a>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li><a class="dropdown-item" href="#"> Ngoại tiết niệu</a></li>
-                                <li><a class="dropdown-item" href="#"> Phụ khoa</a></li>
-                                <li><a class="dropdown-item" href="#"> Sản khoa</a></li>
-                                <li><a class="dropdown-item" href="#"> Ngoại khoa</a></li>
-                                <li><a class="dropdown-item" href="#"> Nội khoa</a></li>
-                                <li><a class="dropdown-item" href="#"> Da liễu</a></li>
-                                <li><a class="dropdown-item" href="#"> Xét nghiệm</a></li>
+                                <?php foreach ( $allCatParent as $item ) { ?>
+                                    <li><a class="dropdown-item" href="category.php?slug=<?php echo $item['TieuDeKD']; ?>"> <?php echo $item['TieuDe']; ?></a></li>
+                                <?php } ?>
                             </ul> 
                         </li>
                         <li class="nav-item"><a class="nav-link" href="#">TIN TỨC</a></li>

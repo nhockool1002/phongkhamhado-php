@@ -941,3 +941,185 @@ body {
   }
 }
 /* ============ mobile view .end// ============ */
+
+.category .tamloiich {
+    padding-top: 38px;
+}
+
+.category .tamloiich img {
+    width: 100%;
+}
+
+.category .thoigianhoatdong img {
+    width: 100%;
+}
+
+.category .hinhbacsicat img {
+    width: 100%;
+}
+
+.category .danhmucbenh {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.category .danhmucbenh .titleDanhMucBenh {
+    height: 50px;
+    line-height: 50px;
+    background-image: url('../images/dmbbg@4x.png');
+    background-size: 100% 100%;
+    background-position: center center;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 40px;
+    position: relative;
+}
+
+.category .danhmucbenh .titleDanhMucBenh::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-image: url('../images/icon-1-hover.png');
+    background-size: 100% 100%;
+    background-position: center center;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.category .danhmucbenh .spaceDmb {
+    height: 2px;
+    width: 100px;
+    background-color: #FFF;
+}
+
+.category .danhmucbenh .contentDmb {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0 0 10px 10px;
+    padding-right: 20px;
+    box-shadow: #a2a2a2 2px 2px 4px;
+}
+
+.category .danhmucbenh .contentDmb ul {
+    list-style: none;
+}
+
+.category .danhmucbenh .contentDmb ul li{
+    text-transform: uppercase;
+    border-bottom: 2px dashed #a2a2a2;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    position: relative;
+}
+
+.category .danhmucbenh .contentDmb ul li a {
+    color: #288ece;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.category .danhmucbenh .contentDmb ul li:last-child {
+    border-bottom: unset;
+}
+
+.category .danhmucbenh .contentDmb ul li::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background-image: url('../images/stethoscope.png');
+    background-size: 100% 100%;
+    background-position: center center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.category .contentCategory .imgPost.imgKD img {
+    width: 100%;
+    border: 2px solid #288ece;
+    border-radius: 10px;
+}
+
+.category .contentCategory .breadcrum {
+    color: #288ece;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.category .contentCategory .breadcrum a {
+    color: #288ece;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.category .contentCategory .breakcrumawww {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.category .contentCategory .exline img {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.category .contentCategory .postContent .btnPost img {
+    width: 200px;
+}
+
+.category .contentCategory .postContent .btnPost a {
+    float: right;
+}
+.category .contentCategory .postContent .btnPost a:first-child {
+    margin-left: 10px;
+}
+
+.category .contentCategory .oneItem {
+    border: 1px dashed #288ece;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.category .postContent .desPost {
+    min-height: 100px;
+    max-height: 300px;
+}
+
+.category .contentCategory .bannerkham img{
+    width: 100%;
+}
+
+.category .contentCategory .namePost {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #288ece;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.listPostRelation .imgHinhPost img {
+    width: 100%;
+    border: 2px solid #288ece;
+    border-radius: 10px;
+}
+
+.listPostRelation .boxTitle {
+    background: #FFF;
+    box-shadow: #b5b5b5 2px 2px 2px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #288ece;
+    text-align: center;
+}
+
+.listPostRelation a {
+    text-decoration: none;
+    color: #288ece;
+    color: #288ece;
+    text-align: center;
+}

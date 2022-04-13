@@ -338,6 +338,24 @@
     .footer-mb .content-footer-mb img {
         width: 100%;
     }
+    .category {
+        flex-direction: column-reverse;
+    }
+    .category .postContent .desPost {
+        min-height: unset !important;
+        max-height: unset !important;
+        height: auto;
+    }
+    .category .contentCategory .postContent .btnPost a {
+        float: unset !important;
+        text-align: center;
+    }
+    .category .contentCategory .postContent .btnPost a:first-child {
+        margin-left: unset !important;
+    }
+    .category .contentCategory .postContent .w-100 {
+        text-align: center;
+    }
 }
 /*Iphone(480 x 640)*/
 @media screen and (max-width: 320px){

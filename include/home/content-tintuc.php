@@ -11,7 +11,7 @@
                         </div>
                         <h5 class="card-title"><?php echo substr(strip_tags($post["TieuDe"]), 0, 30) ?></h5>
                         <p class="card-text"><?php echo substr(strip_tags($post["Des"]), 0, 150) . "..."; ?></p>
-                        <a href="#" class="tintuc-button">
+                        <a href="post.php?slug=<?php echo $post['TieuDeKD']; ?>" class="tintuc-button">
                             <img src="include/asset/images/XemChiTiet.png">
                         </a>
                     </div>

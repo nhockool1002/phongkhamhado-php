@@ -26,4 +26,15 @@
 
         return $result;
     }
+
+    function findSlugCat($slug) {
+        global $pdo;
+
+        $sql = "SELECT * FROM loai WHERE TieuDeKD = '{$slug}'";
+        $query = $pdo->prepare($sql);
+        $query->execute();
+        $result = $query -> fetch();
+
+        return $result;
+    }
 ?>

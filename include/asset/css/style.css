@@ -1,5 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('responsive.css');
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
 
 
 body {
@@ -428,6 +493,7 @@ body {
     box-shadow: unset;
     border: none;
     background-color: transparent;
+    padding-bottom: 10px;
 }
 .tintuc .carousel-control-prev,
 .tintuc .carousel-control-next {
@@ -490,6 +556,34 @@ body {
 
 .tintuc .card-body .tintuc-button img{
     width: 170px;
+}
+
+.tintuc .slick-next:before {
+    content: '\f0a9';
+    font-family: FontAwesome;
+    color: #268ece;
+    font-size: 30px;
+}
+
+.tintuc .slick-prev:before {
+    content: '\f0a8';
+    font-family: FontAwesome;
+    color: #268ece;
+    font-size: 30px;
+}
+
+.tintuc .buttoncT {
+    width: 100%;
+    text-align: center;
+}
+
+.tintuc .buttoncT a {
+    display: block;
+    width: 100%;
+}
+
+.tintuc .buttoncT a img{
+    margin: 0 auto !important;
 }
 
 .menu-mb {
@@ -1055,6 +1149,12 @@ body {
     font-weight: 500;
     text-decoration: none;
 }
+.category .titlePost a{
+    color: #288ece;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
 
 .category .contentCategory .breakcrumawww {
     margin-left: 10px;
@@ -1122,4 +1222,73 @@ body {
     color: #288ece;
     color: #288ece;
     text-align: center;
+}
+
+.main-slider img {
+    width: 250px;
+}
+
+#tintucCarousel {
+    display: none;
+}
+
+.common .left-banner {
+    position: fixed;
+    z-index: 9;
+    top: 20%;
+    left: 0;
+}
+
+.common .popup-mobile {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255 255 255 / 81%);
+    z-index: 9000;
+}
+
+.common .popup-mobile .popup-content {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    height: 400px;
+    background-color: red;
+    z-index: 9;
+    background-image: url("../images/popupdakhoa.jpg");
+    background-size: 100% 100%;
+}
+
+.common .popup-mobile .popup-content .close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.common .popup-mobile .popup-content .close-popup i {
+    font-size: 20px;
+    color: #FFF;
+}
+
+.common .popup-mobile .popup-content .left-button {
+    display: block;
+    width: 185px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.common .popup-mobile .popup-content .right-button {
+    display: block;
+    width: 185px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
 }

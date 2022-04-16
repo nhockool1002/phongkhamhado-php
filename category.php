@@ -10,6 +10,13 @@
     include_once('include/function/posts/func.php');
     include_once('include/function/settings/func.php');
     include_once('include/function/category/func.php');
+
+
+    $catCurrent = findSlugCat($slug);
+    if ($catCurrent == false) {
+        header("Location: index.php");
+        die();
+    }
     $posts = getAllPost();
     $settings = getAllSettings();
     $allCatParent = getAllParentCat();
@@ -22,6 +29,12 @@
     <?php include_once('include/common/header.php'); ?>
 </head>
 <body>
+    <!-- Common -->
+    <div class="common">
+        <div class="content-common">
+            <?php include_once('include/common/content-common.php'); ?>
+        </div>
+    </div>
     <!-- Menu -->
     <div class="menu">
         <div class="content-menu">
@@ -69,7 +82,7 @@
                     <img src="include/asset/images/bannerkham@4x.png" >
                 </div>
                 <div class="breadcrum">
-                    <i class="fas fa-home"></i> <a href="#">Trang chủ</a> <i class="fas fa-chevron-circle-right breakcrumawww"></i> <?php echo $slug; ?>
+                    <i class="fas fa-home"></i> <a href="#">Trang chủ</a> <i class="fas fa-chevron-circle-right breakcrumawww"></i> <?php echo $catCurrent['TieuDe']; ?>
                 </div>
                 <div class="exline">
                     <img src="include/asset/images/exline@4x.png" >
@@ -84,7 +97,7 @@
                                     </div>
                                     <div class="col-md-8 col-xs-5 postContent">
                                         <div class="titlePost">
-                                            <a href="#">
+                                            <a href="post.php?slug=<?php echo $item['TieuDeKD']; ?>">
                                                 <?php echo $item['TieuDe']; ?>
                                             </a>
                                         </div>
@@ -92,7 +105,7 @@
                                             <?php echo $item['TomTat']; ?>
                                         </div>
                                         <div class="btnPost w-100">
-                                            <a href="#">
+                                            <a href="post.php?slug=<?php echo $item['TieuDeKD']; ?>">
                                                 <img src="include/asset/images/xctt.png">
                                             </a>
                                             <a href="#">

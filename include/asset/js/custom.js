@@ -1,3 +1,10 @@
+function checkMobile() {
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        return true;
+    }
+    return false;
+}
+
 // tintuc slide
 var multipleCardCarousel = document.querySelector(
     "#tintucCarousel"
@@ -10,7 +17,7 @@ if (window.matchMedia("(min-width: 768px)").matches) {
     var cardWidth = $(" #tintucCarousel .carousel-item").width();
     var scrollPosition = 0;
     $("#tintucCarousel .carousel-control-next").on("click", function () {
-        if (scrollPosition < carouselWidth - cardWidth * 4) {
+        if (scrollPosition < carouselWidth - cardWidth * 1) {
             scrollPosition += cardWidth;
             $("#tintucCarousel .carousel-inner").animate(
                 { scrollLeft: scrollPosition },
@@ -23,13 +30,56 @@ if (window.matchMedia("(min-width: 768px)").matches) {
             scrollPosition -= cardWidth;
             $("#tintucCarousel .carousel-inner").animate(
                 { scrollLeft: scrollPosition },
-                600
+                2000
             );
         }
     });
 } else {
     $(multipleCardCarousel).addClass("slide");
 }
+
+$('.main-slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 800,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+
+    ]
+});
 
 
 // khach hang noi
@@ -170,3 +220,24 @@ subFrmDangKy.click(function() {
         }
     })
 });
+
+
+var POPUP_MOBILE = $('.popup-mobile');
+var CLOSE_POPUP = $('.close-popup');
+var BODY = $('body')
+
+// setup popup
+setTimeout(function(){
+    if (checkMobile()) {
+        POPUP_MOBILE.css('display', 'block');
+        BODY.css('overflowY', 'hidden');
+    }
+}, 2000);
+
+CLOSE_POPUP.click(function() {
+    POPUP_MOBILE.css('display', 'none');
+    BODY.css('overflowY', 'unset');
+});
+
+
+

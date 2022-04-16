@@ -24,6 +24,12 @@
     <?php include_once('include/common/header.php'); ?>
 </head>
 <body>
+    <!-- Common -->
+    <div class="common">
+        <div class="content-common">
+            <?php include_once('include/common/content-common.php'); ?>
+        </div>
+    </div>
     <!-- Menu -->
     <div class="menu">
         <div class="content-menu">

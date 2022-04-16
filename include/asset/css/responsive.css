@@ -112,6 +112,9 @@
     .footer {
         height: 450px !important;
     }
+    .common .left-banner {
+        display: none !important;
+    }
 }
 /*Tablet nhỏ(480 x 640)*/
 @media screen and (max-width: 480px) and (min-width: 321px){
@@ -356,12 +359,24 @@
     .category .contentCategory .postContent .w-100 {
         text-align: center;
     }
+
+    .common .left-banner {
+        display: none !important;
+    }
 }
 /*Iphone(480 x 640)*/
 @media screen and (max-width: 320px){
     *{}
+
+    .common .left-banner {
+        display: none !important;
+    }
 }
 /*Smart phone nhỏ*/
 @media screen and (max-width: 240px){
     *{}
+
+    .common .left-banner {
+        display: none !important;
+    }
 }
